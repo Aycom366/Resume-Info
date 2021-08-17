@@ -230,7 +230,10 @@ img {
   .header-container {
     flex-direction: column;
   }
-  .hero-container h1 {
+  .hero-container h1,
+  h2,
+  h3,
+  h4 {
     text-align: center;
   }
   .more-info {
@@ -282,7 +285,10 @@ img {
   .navToggle i {
     font-size: 2rem;
   }
-
+  .logo-img {
+    width: 200px;
+    height: 100%;
+  }
   #mobileToggle.is-active i:nth-child(1) {
     display: none;
   }
